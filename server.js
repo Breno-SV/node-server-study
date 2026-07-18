@@ -6,7 +6,7 @@ const PORT = 3000;
 const server = http.createServer((req, res) => {
   res.setHeader('Content-Type', 'text/plain');
   res.statusCode = 200;
-  res.end('Bem-vindo ao nosso Servidor Node.js! Este é apenas um teste para ciração do servidor.');
+  res.end('Bem-vindo ao nosso Servidor Node.js! Este é apenas um teste para criação do servidor.');
 });
 // Inicia o servidor
 server.listen(PORT, () => {
